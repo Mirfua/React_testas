@@ -13,7 +13,6 @@ for(let i = 0; i < mas2.length; i++) {
     console.log(i, mas2[i]);
 }
 
-
  
 //3. Duotas masyvas, masyvą iteruoti ciklu for ir console.log kiekvienoje
 // iteracijoje atspausdinti indeksą ir jo reikšmę, jeigu ta reikšmė yra lyginė (porinė)
@@ -53,9 +52,19 @@ const str2 = 'Ku ku';
 //8. Duotas objektas, kurį reikia iteruoti, kiekvienoje iteracijoje išvedant savybę
 // ir jos reikšmę
 const obj1 = { labas: 'vakaras', laba: 'diena', labs: 'ryts' };
- 
 
-
+console.log(obj1.labas);
+console.log(obj1.laba);
+console.log(obj1.labs); 
 
 //9. Sukurti klasę Grybas. Klasėje sukurti savybė tipas. Iš klasės sukurti
 // 3 Grybo objektus, savybei tipas priskiriant "Baravykas", "Ūmedė" ir "Lepšis"
+
+class Grybas {
+    constructor(griboTipas) {
+        this.griboTipas = "Baravykas";
+        this.griboTipas = "Ūmedė";
+        this.griboTipas = "Lepšis";
+    }
+}
+console.log(Grybas);
