@@ -1,16 +1,13 @@
 //1. Duotas masyvas, console.log atspausdinti masyvo ilgį
 const mas1 = [12, 5, 9, 7, 5, 4];
-mas1.length;
-
-console.log(mas1)
-
+console.log(mas1.length)
 
 
 //2. Duotas masyvas, masyvą iteruoti ciklu for ir console.log kiekvienoje
 // iteracijoje atspausdinti indeksą ir jo reikšmę;
 const mas2 = [13, '785', 92, 'labas', 522, 6984];
 for(let i = 0; i < mas2.length; i++) {
-    console.log(i, mas2[i]);
+    console.log('index: ', i, mas2[i]);
 }
 
  
