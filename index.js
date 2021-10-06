@@ -17,7 +17,7 @@ for(let i = 0; i < mas2.length; i++) {
 //3. Duotas masyvas, masyvą iteruoti ciklu for ir console.log kiekvienoje
 // iteracijoje atspausdinti indeksą ir jo reikšmę, jeigu ta reikšmė yra lyginė (porinė)
 const mas3 = [889, 52, 698, 752, 9333, 7];
-for(let i = 0; i< mas3.length; i++) {
+for(let i = 0; i < mas3.length; i++) {
     if(mas3[i] % 2 == 0) {
         console.log(i, mas3[i]);
     }
